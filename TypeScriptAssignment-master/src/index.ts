@@ -4,4 +4,5 @@ import { alertMe } from './myOtherModule';
 console.log(helloWorld);
 customElements.define('my-beispiel', Beispiel)
 
+
 alertMe();

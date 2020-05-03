@@ -1,0 +1,29 @@
+.aligneverything {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: darkgrey;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.button {
+    border-color: crimson;
+    border-style: solid;
+    padding: 0.5rem;
+}
+
+.button:hover {
+    background-color: crimson;
+    color: white;
+}
