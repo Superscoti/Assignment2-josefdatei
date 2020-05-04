@@ -47,5 +47,5 @@ export let questions: string[] = [
     'auf einer Party geweint.',
     'etwas geschluckt, das ich nie wieder freiwillig schlucken würde.',
     'für jemanden gekocht.',
-    'mich in meinen besten Freund verliebt.',
+    'mich in meinen besten Freund verliebt.'
 ];
