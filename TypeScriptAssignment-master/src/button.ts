@@ -5,7 +5,6 @@ export default class buttonClass {
     private question = document.getElementById("question")! as HTMLElement;
     private index:number = 0;
 
-
     constructor() {
         this.initButton();
     }
