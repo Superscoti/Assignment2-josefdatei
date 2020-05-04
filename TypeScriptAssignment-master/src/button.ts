@@ -7,11 +7,7 @@ export default class buttonClass {
 
 
     constructor() {
-        let button = document.querySelector("#nextquestion");
-        button?.addEventListener("click", ()=> {
-            console.log(this.index);
-            this.onClick();
-        });
+        this.initButton();
     }
 
     private nextIndex():void {
@@ -22,10 +18,17 @@ export default class buttonClass {
         }
     }
 
-    public onClick():void {
+    private onClick():void {
         //console.log(questions[this.index]);
         this.question.innerHTML = questions[this.index];
         this.nextIndex();
     }
 
+    private initButton():void {
+        let button = document.querySelector("#nextquestion")! as HTMLElement;
+        button?.addEventListener("click", ()=> {
+            console.log(this.index);
+            this.onClick();
+        });
+    }
 }

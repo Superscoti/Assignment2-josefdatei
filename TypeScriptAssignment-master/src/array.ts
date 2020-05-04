@@ -1,4 +1,4 @@
-export let questions: string[] = [
+export const questions:string[] = [
     'während dem Sex mit Haushaltsgegenständen experimentiert.',
     'mehr als 3 Tage im Krankenhaus verbracht.',
     'im Schlaf gesabbert.',
