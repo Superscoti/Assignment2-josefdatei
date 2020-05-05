@@ -18,7 +18,7 @@ export default class buttonClass {
     }
 
     private onClick():void {
-        //console.log(questions[this.index]);
+        console.log(questions[this.index]);
         this.question.innerHTML = questions[this.index];
         this.nextIndex();
     }
